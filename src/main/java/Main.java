@@ -5,9 +5,11 @@ public class Main {
 
         PropertyReader propReader = PropertyReader.INSTANCE;
         Object value2 = propReader.getExamplePropertyValue2();
+        Boolean value6 = propReader.getExamplePropertyValueAsBoolean();
 
         System.out.println("Value1 = " + value1);
         System.out.println("Value2 = " + value2);
+        System.out.println("Boolean = " + value6);
 
         System.out.println(" ------- ");
 
